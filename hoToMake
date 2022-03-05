@@ -1,6 +1,6 @@
 ### how to make auto Shutdown if more 65° celcius by pamuel####
 
-contack http://fb.me/efendi.misteri  if u need
+contack http://fb.me/efendi.misteri if u need
 
 step 0 : login with super user or type su(enter) and input you pasword(enter)
 step 1 : type "apt-get update"(enter) answer y if need
@@ -16,3 +16,5 @@ step 9 : add script to cronjob you can make whith type "crontab -e" and add rule
 pres ctrl+s and ctrl+x and taraaaa u script runing
 
 noted* delet double quote(") for ex "apt-get install git" u need type only apt-get install git
+
+this script tested in Debian Buster with Armbian Linux 5.1.0-aml-s905
