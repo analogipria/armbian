@@ -1,7 +1,9 @@
-how to take.
-step 1 : install git on our armbian u can type "apt-get install git" (enter) answer y if need
+### how to make ####
+step 1 : install git on you armbian u can type "apt-get install git" (enter) answer y if need.
 step 2 : type git clone "https://github.com/analogipria/armbian.git" (enter)
 step 3 : give akses to runing or u can type "chmod +x armbian/autoshutdown.sh.x" (enter)
-step 4 : add script to cronjob u can take whith type "crontab -e" and add rule :
+step 4 : add script to cronjob you can make whith type "crontab -e" and add rule :
 "* * * * * /(where u drop or downloaded file)/armbian/autoshutdown.sh.x"
 pres ctrl+s and ctrl+x and taraaaa u script runing
+
+noted* delet double quote(") for ex "apt-get install git" u need type only apt-get install git
