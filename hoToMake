@@ -1,0 +1,15 @@
+### how to make auto Shutdown if more 60° celcius by pamuel####
+
+step 0 : login with super user or type su(enter) and input you pasword(enter)
+step 1 : type "apt-get update"(enter) answer y if need
+step 2 : tepe "apt-get upgrade" (enter) answer y if need
+step 3 : type "apt update"(enter) answer y if need
+step 4 : type "apt upgrade"(enter) answer y if need
+step 5 : install git on you armbian u can type "apt-get install git" (enter) answer y if need.
+step 6 : type git clone "https://github.com/analogipria/armbian.git" (enter)
+step 7 : give akses to runing or u can type "chmod +x armbian/autoshutdown.sh.x" (enter)
+step 8 : add script to cronjob you can make whith type "crontab -e" and add rule :
+"* * * * * /(where u drop or downloaded file)/armbian/autoshutdown.sh.x"
+pres ctrl+s and ctrl+x and taraaaa u script runing
+
+noted* delet double quote(") for ex "apt-get install git" u need type only apt-get install git
